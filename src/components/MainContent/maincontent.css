@@ -1,0 +1,21 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-and-buttons {
+  max-width: 50%;
+  color: #16855D;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.image {
+  max-width: 50%;
+}
+
+img {
+  width: 75%;
+}

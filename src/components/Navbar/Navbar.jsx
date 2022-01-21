@@ -1,4 +1,3 @@
-import React from "react";
 import village_logo from "../../assets/village_logo.svg";
 import "./navbar.css"
 
