@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import MainContent from "./components/MainContent/MainContent";
 import DividerImage from "./components/DividerImage/DividerImage";
+import BelowFold from "./components/BelowFold/BelowFold";
 import './App.css';
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       </header>
       <body>
         <MainContent />
+        <DividerImage />
+        <BelowFold />
         <DividerImage />
       </body>
     </div>
