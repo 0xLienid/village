@@ -16,9 +16,9 @@ function BelowFold() {
       </div>
       <div className="more-details">
         <div className="invest">
-          <h4>
+          <h3>
             Invest
-          </h4>
+          </h3>
           <p>
             Tap into a new type of yield by committing capital to a borrower’s impact fund. For every cause, there will be a new fund for you to invest in.
           </p>
@@ -27,9 +27,9 @@ function BelowFold() {
           <img src={village_logo} />
         </div>
         <div className="borrow">
-          <h4>
+          <h3>
             Borrow
-          </h4>
+          </h3>
           <p>
             Impact-focused businesses, investment funds, and other types of institutions are likely eligible to borrow through Village! Head to our Borrower Form or Contact Us to start the process.
           </p>
@@ -42,7 +42,15 @@ function BelowFold() {
       </div>
       <div className="docs-cta">
         <p>
-          Head to our Docs to learn more!
+          Head to our 
+          <a
+            target="_blank"
+            href="https://village.gitbook.io/village/"
+            style={{ textDecoration: "underline", color: "white", marginLeft: "4px", marginRight: "4px" }}
+          >
+            Docs
+          </a>
+          to learn more!
         </p>
       </div>
     </div>

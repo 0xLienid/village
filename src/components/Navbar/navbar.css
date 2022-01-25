@@ -4,12 +4,17 @@
   justify-content: space-between;
   width: 90%;
   padding: 30px;
+  margin-bottom: 45px;
 }
 
-.app-logo {
+.app-topbar .app-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 25%;
+}
+
+.app-topbar .app-logo img {
   width: 25%;
 }
 
@@ -17,10 +22,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 40%;
+  align-items: center;
+  width: 35%;
 }
 
-a {
+.app-topbar a {
   color: #18814F;
   text-decoration: none;
+  margin-right: 20px;
+}
+
+p {
+  font-size: 18px;
 }

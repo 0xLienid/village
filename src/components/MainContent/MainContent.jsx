@@ -13,10 +13,14 @@ function MainContent() {
         </p>
         <div className="buttons">
           <button className="learn-more">
-            <h6>Learn More</h6>
+            <a target="_blank" href="https://village.gitbook.io/village/">
+              <h6>Learn More</h6>
+            </a>
           </button>
           <button className="apply">
-            <h6>Apply to Borrow</h6>
+            <a target="_blank" href="https://impactvillage.us20.list-manage.com/subscribe?u=12cf845d2866bf06908250683&id=7a6b4425d0">
+              <h6>Apply to Borrow</h6>
+            </a>
           </button>
         </div>
       </div>

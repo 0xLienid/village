@@ -1,4 +1,7 @@
 import named_logo from "../../assets/named_logo.svg";
+import github_logo from "../../assets/github.svg";
+import twitter_logo from "../../assets/twitter.svg";
+import other_logo from "../../assets/subtract.svg";
 import "./footer.css";
 
 function Footer() {
@@ -52,6 +55,17 @@ function Footer() {
           <p>
             Social
           </p>
+          <div className="social-icons">
+            <a target="_blank" href="">
+              <img src={github_logo} />
+            </a>
+            <a target="_blank" href="">
+              <img src={twitter_logo} />
+            </a>
+            <a target="_blank" href="">
+              <img src={other_logo} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,73 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 60px 0px 60px;
+  padding-bottom: 75px;
+}
+
+.logo-section {
+  width: 40%;
+}
+
+.logo-section p {
+  color: #18814F;
+}
+
+.links-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.links-section .resources {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.links-section .resources p {
+  color: #18814F;
+}
+
+.links-section .resources a {
+  color: #0F6B4B;
+  line-height: 25px;
+}
+
+.links-section .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 35px;
+}
+
+.links-section .contact p {
+  color: #18814F;
+}
+
+.links-section .contact a {
+  color: #0F6B4B;
+  line-height: 25px;
+}
+
+.links-section .social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 35px;
+}
+
+.links-section .social .social-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.links-section .social .social-icons img {
+  margin-right: 25px;
+}
+
+.links-section .social p {
+  color: #18814F;
+}

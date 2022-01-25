@@ -1,0 +1,68 @@
+.below-fold-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.below-fold-headline h2 {
+  color: #16855D;
+  margin-bottom: 35px;
+}
+
+.bubble-blurb {
+  width: 60%;
+  padding: 20px 45px 20px 45px;
+  background: white;
+  border: 1px solid #0CAD64;
+  border-radius: 30px;
+  margin-bottom: 75px;
+}
+
+.bubble-blurb p {
+  line-height: 25px;
+}
+
+.more-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.more-details .invest {
+  width: 25%;
+  color: white;
+  text-align: right;
+}
+
+.more-details .village-logo {
+  width: 20%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.more-details .borrow {
+  width: 25%;
+  color: white;
+  text-align: left;
+}
+
+.bottom-blurb {
+  width: 60%;
+  padding: 20px 45px 20px 45px;
+  background: #099F72;
+  border: 2px solid rgba(46, 155, 105, 0.75);
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.bottom-blurb p {
+  color: white;
+  line-height: 25px;
+}
+
+.docs-cta {
+  color: white;
+}

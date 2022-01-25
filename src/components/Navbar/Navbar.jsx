@@ -1,4 +1,5 @@
 import village_logo from "../../assets/village_logo.svg";
+import github_logo from "../../assets/github.svg";
 import "./navbar.css"
 
 function Navbar() {
@@ -19,6 +20,9 @@ function Navbar() {
         </a>
         <a target="_blank" href="mailto:admin@impactvillage.io">
           <p>Contact Us</p>
+        </a>
+        <a target="_blank" href="" style={{ marginRight: "0px" }}>
+          <img src={github_logo} />
         </a>
       </div>
     </div>

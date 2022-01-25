@@ -6,16 +6,72 @@
 }
 
 .text-and-buttons {
-  max-width: 50%;
+  max-width: 30%;
   color: #16855D;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 25px;
+  text-align: left;
 }
 
 .image {
   max-width: 50%;
 }
 
-img {
+.main-content h2 {
+  font-size: 35px;
+}
+
+.main-content p {
+  margin-bottom: 35px;
+}
+
+.main-content img {
   width: 75%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.buttons .learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #56B4D3 0%, #348F50  51%, #56B4D3  100%);
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  background-size: 200% auto;
+  border-radius: 30px;
+  border-width: 0px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.buttons .learn-more a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons .apply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #E26F67 0%, #E4A843  51%, #E26F67  100%);
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 30px;
+  border-width: 0px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.buttons .apply a {
+  text-decoration: none;
+  color: white;
 }
