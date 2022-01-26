@@ -2,18 +2,21 @@ import named_logo from "../../assets/named_logo.svg";
 import github_logo from "../../assets/github.svg";
 import twitter_logo from "../../assets/twitter.svg";
 import other_logo from "../../assets/subtract.svg";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import "./footer.css";
 
 function Footer() {
+  const isSmallScreen = useMediaQuery("(max-width: 975px)");
+
   return (
-    <div className="footer">
+    <div className={`footer ${isSmallScreen && "smaller"}`}>
       <div className="logo-section">
         <img src={named_logo} />
         <p>
           Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license
         </p>
       </div>
-      <div className="links-section">
+      <div className={`links-section ${isSmallScreen && "smaller"}`}>
         <div className="resources">
           <p>
             Resources

@@ -6,8 +6,21 @@
   padding-bottom: 75px;
 }
 
+.footer.smaller {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo-section {
   width: 40%;
+}
+
+.footer.smaller .logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
 }
 
 .logo-section p {
@@ -19,6 +32,12 @@
   flex-direction: row;
   justify-content: flex-end;
   width: 50%;
+}
+
+.links-section.smaller {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .links-section .resources {

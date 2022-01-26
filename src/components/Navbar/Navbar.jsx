@@ -1,14 +1,17 @@
 import village_logo from "../../assets/village_logo.svg";
 import github_logo from "../../assets/github.svg";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import "./navbar.css"
 
 function Navbar() {
+  const isSmallScreen = useMediaQuery("(max-width: 800px)");
+
   return (
-    <div className="app-topbar">
+    <div className={`app-topbar ${isSmallScreen && "smaller"}`}>
       <div className="app-logo">
         <img src={village_logo} />
       </div>
-      <div className="app-links">
+      <div className={`app-links ${isSmallScreen && "smaller"}`}>
         <a target="_blank" href="https://village.gitbook.io/village/">
           <p>Docs</p>
         </a>

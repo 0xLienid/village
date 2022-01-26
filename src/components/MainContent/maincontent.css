@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.main-content.smaller {
+  flex-direction: column;
+}
+
 .text-and-buttons {
   max-width: 30%;
   color: #16855D;
@@ -13,8 +17,18 @@
   text-align: left;
 }
 
+.text-and-buttons.smaller {
+  max-width: 65%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .image {
   max-width: 50%;
+}
+
+.image.smaller {
+  max-width: 75%;
 }
 
 .main-content h2 {
@@ -35,6 +49,10 @@
   height: 50px;
 }
 
+.buttons.smaller {
+  justify-content: center;
+}
+
 .buttons .learn-more {
   display: flex;
   justify-content: center;
@@ -48,6 +66,7 @@
   border-width: 0px;
   margin-right: 20px;
   font-size: 20px;
+  filter: drop-shadow(0px 42.1961px 43.9543px rgba(9, 133, 93, 0.18)) drop-shadow(0px 15.4023px 16.044px rgba(9, 133, 93, 0.124197)) drop-shadow(0px 7.47751px 7.78908px rgba(9, 133, 93, 0.100132)) drop-shadow(0px 3.66562px 3.81835px rgba(9, 133, 93, 0.0798677)) drop-shadow(0px 1.44939px 1.50978px rgba(9, 133, 93, 0.0558033));
 }
 
 .buttons .learn-more a {
@@ -69,6 +88,7 @@
   border-width: 0px;
   margin-right: 20px;
   font-size: 20px;
+  filter: drop-shadow(0px 42.1961px 43.9543px rgba(9, 133, 93, 0.18)) drop-shadow(0px 15.4023px 16.044px rgba(9, 133, 93, 0.124197)) drop-shadow(0px 7.47751px 7.78908px rgba(9, 133, 93, 0.100132)) drop-shadow(0px 3.66562px 3.81835px rgba(9, 133, 93, 0.0798677)) drop-shadow(0px 1.44939px 1.50978px rgba(9, 133, 93, 0.0558033));
 }
 
 .buttons .apply a {

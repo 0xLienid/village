@@ -1,17 +1,20 @@
 import village_img from "../../assets/village_big_img.svg";
+import useMediaQuery from "@material-ui/core/useMediaQuery";
 import "./maincontent.css";
 
 function MainContent() {
+  const isSmallScreen = useMediaQuery("(max-width: 800px)");
+
   return (
-    <div className="main-content">
-      <div className="text-and-buttons">
+    <div className={`main-content ${isSmallScreen && "smaller"}`}>
+      <div className={`text-and-buttons ${isSmallScreen && "smaller"}`}>
         <h2>
           Novel Impact Investing with Digital Assets
         </h2>
         <p>
           Leverage custom economics to invest and earn, or borrow and fund toward a better world using Village.
         </p>
-        <div className="buttons">
+        <div className={`buttons ${isSmallScreen && "smaller"}`}>
           <button className="learn-more">
             <a target="_blank" href="https://village.gitbook.io/village/">
               <h6>Learn More</h6>
@@ -24,7 +27,7 @@ function MainContent() {
           </button>
         </div>
       </div>
-      <div className="image">
+      <div className={`image ${isSmallScreen && "smaller"}`}>
         <img src={village_img} />
       </div>
     </div>

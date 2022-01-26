@@ -16,7 +16,8 @@
   background: white;
   border: 1px solid #0CAD64;
   border-radius: 30px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
+  box-shadow: 0px 24px 25px rgba(9, 133, 93, 0.18), 0px 8.7604px 9.12541px rgba(9, 133, 93, 0.124197), 0px 4.25301px 4.43022px rgba(9, 133, 93, 0.100132), 0px 2.0849px 2.17178px rgba(9, 133, 93, 0.0798677), 0px 0.824374px 0.858723px rgba(9, 133, 93, 0.0558033);
 }
 
 .bubble-blurb p {
@@ -28,25 +29,48 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 75px;
+}
+
+.more-details.smaller {
+  flex-direction: column;
+}
+
+.more-details h3 {
+  font-size: 35px;
 }
 
 .more-details .invest {
-  width: 25%;
+  width: 20%;
   color: white;
   text-align: right;
 }
 
+.invest.smaller {
+  width: 65%;
+  text-align: center;
+}
+
 .more-details .village-logo {
+  width: 10%;
+}
+
+.village-logo.smaller {
   width: 20%;
-  margin-left: 50px;
-  margin-right: 50px;
+}
+
+.more-details .village-logo img {
+  height: 100px;
 }
 
 .more-details .borrow {
-  width: 25%;
+  width: 20%;
   color: white;
   text-align: left;
+}
+
+.borrow.smaller {
+  width: 65%;
+  text-align: center;
 }
 
 .bottom-blurb {
@@ -58,6 +82,10 @@
   margin-bottom: 30px;
 }
 
+.bottom-blurb.smaller {
+  margin-top: 50px;
+}
+
 .bottom-blurb p {
   color: white;
   line-height: 25px;
@@ -65,4 +93,25 @@
 
 .docs-cta {
   color: white;
+}
+
+.rounded {
+  width: 5%;
+  border: 2px solid rgba(46, 155, 105, 0.75);
+  border-radius: 2px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.vertical-rounded {
+  width: 5%;
+  border: 2px solid rgba(46, 155, 105, 0.75);
+  border-radius: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  transform: rotate(90deg);
+}
+
+.vertical-rounded.smaller {
+  width: 10%;
 }
